@@ -54,7 +54,7 @@ const InventoryGrid: React.FC<{ inventory: Inventory, direction: 'left' | 'right
         return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/player.png" alt="Trunk" />;
     }
   };
-  
+
   return (
     <>
       <div className="inventory-grid-wrapper" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>

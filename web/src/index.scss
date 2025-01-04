@@ -306,7 +306,7 @@ button:active {
   display: flex;
   flex-direction: column;
   gap: calc($gridGap * 2);
-  padding: 0.625rem;
+  padding: 12px;
   border-radius: 0.5rem;
 }
 .inventory-grid-header-wrapper {
@@ -319,12 +319,12 @@ button:active {
   grid-row-gap: 0px;
   width: 30%;
   p {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 300;
   }
   .player-name{
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
     color: #00ffbc;
     width: max-content;
   }
@@ -365,10 +365,7 @@ button:active {
   animation: zoomOutAndShake 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   border-bottom: 1px dashed #00ffdd54;
   &:hover {
-    -webkit-box-shadow: inset 0px 0px 30px 5px rgba(6, 43, 36, 0.336);
-    -moz-box-shadow: inset 0px 0px 30px 5px rgba(8, 129, 109, 0.336);
-    box-shadow: inset 0px 0px 40px 10px rgba(8, 129, 109, 0.336);
-
+    box-shadow: 0.0rem 0.0rem 20px 2px #104d3cb7 inset !important;
   }
 }
 
@@ -382,13 +379,11 @@ button:active {
 }
 
 .inventory-slot-label-box {
-  -webkit-box-shadow: inset 0px 0px 30px 5px #1a1d21;
-  -moz-box-shadow: inset 0px 0px 30px 5px #1a1d21;
-  box-shadow: inset 0px 0px 40px 10px #1a1d21;
+  box-shadow: inset 0px 0px 40px 10px rgba(17, 19, 18, 0.336);
   position: relative;
   color: rgb(148, 148, 148);
   text-align: center;
-  bottom: 1px;
+  bottom: 0px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -399,20 +394,20 @@ button:active {
   text-overflow: ellipsis;
   padding: 1px;
   font-family: $mainFont;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 700;
 }
 
 .inventory-slot-number {
   background-color: rgba(0, 94, 74, 0.411);
-  box-shadow: 0 0 1vh #03b89a59;
-  border: 1px solid #199e7649;
+  box-shadow: 0 0 1vh #02705e59;
+  border: 1px solid #045e4349;
   color: rgb(197, 192, 192);
   height: 14px;
   border-radius: 0.25vh;
   border-bottom-right-radius: 3.5rem;
   padding: 3px;
-  font-size: 12px;
+  font-size: 11px;
   font-family: $mainFont;
 }
 
@@ -477,7 +472,7 @@ button:active {
   pointer-events: none;
   display: flex;
   width: 200px;
-  padding: 8px;
+  padding: 12px;
   flex-direction: column;
   min-width: 200px;
   color:white;
@@ -599,7 +594,7 @@ button:active {
 .item-notification-action-box {
   width: 100%;
   color: $textColor;
-  //background-color: $mainColor;
+  // background-color: $mainColor;
   text-transform: uppercase;
   text-align: center;
   border-radius: 0.5rem;
@@ -620,7 +615,7 @@ button:active {
 .durability-bar {
   background-color: $secondaryColor;
   height: 3px;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   overflow: hidden;
 }
 
@@ -629,7 +624,6 @@ button:active {
   height: 1vh;
   border-radius: 0.25rem;
   overflow: hidden;
-  border-bottom: 1px dashed #00ffdd54;
 }
 
 .transition-fade-enter {
