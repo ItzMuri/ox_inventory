@@ -210,7 +210,7 @@ local function openInventory(source, invType, data, ignoreSecurityChecks)
 
 				if not right then
 					local netid = tonumber(data:sub(9))
-	
+
 					if netid and NetworkGetEntityFromNetworkId(netid) > 0 then
 						right = Inventory.Create(data, locale('dumpster'), invType, 15, 0, 100000, false)
 					end
@@ -287,6 +287,12 @@ end
 ---@param invType string
 ---@param data string|number|table
 lib.callback.register('ox_inventory:openInventory', function(source, invType, data)
+    if invType == 'player' and source ~= data then
+        local serverId = type(data) == 'table' and data.id or data
+
+        if source == serverId or type(serverId) ~= 'number' or not Player(serverId).state.canSteal then return end
+    end
+
 	return openInventory(source, invType, data)
 end)
 
