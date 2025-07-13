@@ -168,11 +168,11 @@ button:active {
     color: #ffffff73;
     background-color: #1a1d21;
     border: 1px solid #2a2d31;
-    border-bottom: 1px dashed #00ffdd54;
+    
     &:focus-within {
       box-shadow: 0.0rem 0.0rem 10px 2px #104d3cb7 inset !important;
       border: 1px solid #2a2d31;
-      border-bottom: 1px dashed #00ffdd54;
+     
     }
   }
 
@@ -182,10 +182,10 @@ button:active {
     border: 1px solid #2a2d31;
     padding: 5px;
     width: 100%;
-    border-bottom: 1px dashed #00ffdd54;
+   
     &:hover {
       box-shadow: 0.0rem 0.0rem 10px 2px #104d3cb7 inset !important;
-      border-bottom: 1px dashed #00ffdd54;
+     
       transform: rotateX(5deg) rotateY(10deg) rotateZ(10deg); /* 3D Rotation */
       transform-style: preserve-3d;
       transition: transform 1s ease;
@@ -199,11 +199,11 @@ button:active {
     width: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    border-bottom: 1px dashed #00ffdd54;
+    
     &:hover {
       transform: rotateY(180deg); /* Flip effect on hover */
       box-shadow: 0.0rem 0.0rem 10px 2px #104d3cb7 inset !important;
-      border-bottom: 1px dashed #00ffdd54;
+      
     }
   }
 }
@@ -223,7 +223,7 @@ button:active {
   padding: 16px;
   border-radius: 4px;
   gap: 16px;
-  border-bottom: 1px dashed #00ffdd54;
+  
 }
 
 .useful-controls-dialog-overlay {
@@ -247,7 +247,7 @@ button:active {
   align-items: center;
   border-radius: 4px;
   fill: $textColor;
-  border-bottom: 1px dashed #00ffdd54;
+  
   &:hover {
     -webkit-box-shadow: inset 0px 0px 30px 5px rgba(6, 43, 36, 0.336);
     -moz-box-shadow: inset 0px 0px 30px 5px rgba(8, 129, 109, 0.336);
