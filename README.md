@@ -19,7 +19,7 @@ A complete inventory system for FiveM, implementing items, weapons, shops, and m
   <a href="https://itzmuri.tebex.io/category/qbcore">
     <img src="https://img.shields.io/badge/Tebex-QBCore%20Store-blue?logo=shopping-cart&style=for-the-badge" />
   </a>
-  <a href="https://discord.gg/yourserver">
+  <a href="https://discord.gg/4mUvNzDnTq">
     <img src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&style=for-the-badge" />
   </a>
 </p>
