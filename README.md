@@ -10,10 +10,6 @@ A complete inventory system for FiveM, implementing items, weapons, shops, and m
   <img src="https://img.shields.io/github/forks/ItzMuri/ox_inventory?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/github/last-commit/ItzMuri/ox_inventory?style=for-the-badge" />
 
-  <!-- Project Info -->
-  <img src="https://img.shields.io/badge/Made%20for-FiveM-blueviolet?logo=fivem&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Framework-qb--core-blue?logo=lua&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-Lua-yellow?logo=lua&style=for-the-badge" />
 
   <!-- Tebex & Discord -->
   <a href="https://itzmuri.tebex.io/category/qbcore">
