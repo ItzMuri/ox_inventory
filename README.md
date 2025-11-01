@@ -6,13 +6,13 @@ A complete inventory system for FiveM, implementing items, weapons, shops, and m
 
 
 ![](https://img.shields.io/github/downloads/ItzMuri/ox_inventory/total?logo=github)
-![](https://img.shields.io/github/stars/ItzMuri/ox_inventory?logo=github)
-
-
 ![](https://img.shields.io/github/stars/ItzMuri/ox_inventory?style=for-the-badge&logo=github)
 ![](https://img.shields.io/github/forks/ItzMuri/ox_inventory?style=for-the-badge&logo=github)
 ![](https://img.shields.io/github/downloads/ItzMuri/ox_inventory/total?style=for-the-badge&logo=github)
 ![](https://img.shields.io/github/last-commit/ItzMuri/ox_inventory?style=for-the-badge)
+![](https://img.shields.io/badge/Donate-Binance-yellow?logo=binance)
+![](https://img.shields.io/badge/Tebex-Store-blue?logo=shopping-cart)
+![](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord)
 
 
 ## 📚 Documentation
